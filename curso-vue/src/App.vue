@@ -7,12 +7,18 @@
     import Ex004 from './componentes/ex004 - HTML.vue'
     import Ex005 from './componentes/ex005 - Model.vue'
     import Ex006 from './componentes/ex006 - Classe.vue'
+    import Ex007 from './componentes/ex007 - Clique.vue'
+    import Ex008 from './componentes/ex008 - Evento de submissão.vue'
+    import Ex009 from './componentes/ex009 - Prevent Default.vue'
+    import Ex0010 from './componentes/ex0010 - Lifecycle.vue'
+    import Ex0011 from './componentes/ex0011 - Props estáticos Parte 1.vue'
+    import Ex0012 from './componentes/ex0012 - Props dinâmicos Parte 1.vue'
 
 </script>
 
 <template>
 
   <!-- Chamada do método "Ex" .-->
-  <Ex006></Ex006>
+  <Ex0012></Ex0012>
 
 </template>

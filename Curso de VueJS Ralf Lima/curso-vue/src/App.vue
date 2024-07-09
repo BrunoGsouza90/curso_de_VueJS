@@ -13,12 +13,15 @@
     import Ex0010 from './componentes/ex0010 - Lifecycle.vue'
     import Ex0011 from './componentes/ex0011 - Props estáticos Parte 1.vue'
     import Ex0012 from './componentes/ex0012 - Props dinâmicos Parte 1.vue'
+    import Ex0013 from './componentes/Exercício 13/ex0013 - Rotas.vue'
+    import Ex0014 from './componentes/ex0014 - Requisição.vue'
+    import Extra0014 from './componentes/Extra - Requisição.vue'
 
 </script>
 
 <template>
 
   <!-- Chamada do método "Ex" .-->
-  <Ex0012></Ex0012>
+  <Extra0014></Extra0014>
 
 </template>

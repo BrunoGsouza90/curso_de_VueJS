@@ -22,6 +22,6 @@
 <template>
 
   <!-- Chamada do método "Ex" .-->
-  <Extra0014></Extra0014>
+  <Ex007></Ex007>
 
 </template>

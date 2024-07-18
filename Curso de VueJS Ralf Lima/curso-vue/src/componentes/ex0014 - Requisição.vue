@@ -1,6 +1,6 @@
 <script setup>
 
-// https://jsonplaceholder.typicode.com/    -    Link para APIs Falsas.
+    // https://jsonplaceholder.typicode.com/    -    Link para APIs Falsas.
 
     import { onMounted, ref } from 'vue';
 

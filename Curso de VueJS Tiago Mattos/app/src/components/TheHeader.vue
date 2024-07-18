@@ -20,8 +20,9 @@
 <style>
 
     .header {
-       background: rgb(25, 175, 25);
-       color: white;
+       background: rgba(65, 141, 65, 0.986);
+       color: rgb(255, 255, 255);
+       text-align: center;
     }
 
 </style>

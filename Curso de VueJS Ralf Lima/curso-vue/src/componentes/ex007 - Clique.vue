@@ -1,11 +1,11 @@
 <script setup>
     import { ref } from 'vue';
 
-    var cor = ref('começo')
+    var cor = ref('cinza')
     var texto = ref('Interaja...')
 
     function Clicar() {
-        cor = 'verde'
+        cor = 'green'
         texto.value = 'Cliquei'
     }
 

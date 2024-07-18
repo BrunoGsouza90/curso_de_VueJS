@@ -1,25 +1,46 @@
 <script setup>
 
-import { onMounted, ref, onUnmounted } from 'vue';
+    import { onMounted, ref, onUnmounted } from 'vue'
 
-let texto = ref('Hello World!');
+    var texto = ref('Hello World!')
+    var cor = ref('green')
 
-function repetindo_texto() {
-    texto.value = texto.value === 'Hello World!' ? 'Alterando texto!' : 'Hello World!';
-}
+    function repetindo_texto() {
+        texto.value = texto.value === 'Hello World!' ? 'Alterando o texto!' : 'Hello World!'
+        cor.value = cor.value === 'green' ? 'red' : 'green'
+    }
 
-onMounted(() => {
-    const intervalId = setInterval(repetindo_texto, 3000);
+    onMounted(() => {
+        const intervalId = setInterval(repetindo_texto, 3000)
 
-    onUnmounted(() => {
-        clearInterval(intervalId);
-    });
-});
+        onUnmounted(() => {
+            clearInterval(intervalId)
+        })
+    })
 
 </script>
 
 <template>
-
-    <h1>{{ texto }}</h1>
+    <div id="msg" :class="cor">
+        <h1>{{ texto }}</h1>
+    </div>
 
 </template>
+
+<style>
+
+    #msg{
+        width: 100vh;
+        height: 100vh;
+        margin: 5px;
+    }
+
+    .green{
+        background-color: green;
+    }
+
+    .red{
+        background-color: red;
+    }
+
+</style>

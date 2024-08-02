@@ -47,7 +47,7 @@
     
     <button v-on:click.once="Clicar3()">Evento disparado apenas uma vez</button>
 
-    <form action="https://www.google.com.br/" v-on:submit="google()">
+    <form action="https://www.google.com.br/" target="_blank" v-on:submit="google()">
         <p>Clique no botão para ir para o site do Google:</p>
         <button type="submit">Clique aqui para ir para Google</button>
     </form>

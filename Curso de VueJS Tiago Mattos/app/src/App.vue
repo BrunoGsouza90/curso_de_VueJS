@@ -4,9 +4,10 @@
     //import Ex003 from './components/Ex003 - Estrutura v-bind.vue'
     //import Ex004 from './components/Ex004 - Classes e Estilos.vue'
     //import Ex005 from './components/Ex005 - Estrutura v-model.vue'
-    import Ex006 from './components/Ex006 - Eventos.vue'
+    //import Ex006 from './components/Ex006 - Eventos.vue'
+    import Ex007 from './components/Ex007 - Propriedade Computada.vue'
 </script>
 
 <template>
-    <Ex006></Ex006>
+    <Ex007></Ex007>
 </template>

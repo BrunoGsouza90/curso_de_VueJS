@@ -36,6 +36,8 @@
 </script>
 
 <template>
+
+    <h1>Watch</h1>
     
     <input type="text" v-model="nome" placeholder="Digite seu nome">
     {{ nome }}

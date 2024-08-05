@@ -6,9 +6,11 @@
     //import Ex005 from './components/Ex005 - Estrutura v-model.vue'
     //import Ex006 from './components/Ex006 - Eventos.vue'
     //import Ex007 from './components/Ex007 - Propriedade Computada.vue'
-    import Ex008 from './components/Ex008 - Watch.vue'
+    //import Ex008 from './components/Ex008 - Watch.vue'
+    //import Ex009 from './components/Ex009 - Ciclo de Vida.vue'
+    import Ex010 from './components/Ex010 - Componentes slot.vue'
 </script>
 
 <template>
-    <Ex008></Ex008>
+    <Ex010></Ex010>
 </template>

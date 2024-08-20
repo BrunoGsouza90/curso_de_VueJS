@@ -8,9 +8,10 @@
     //import Ex007 from './components/Ex007 - Propriedade Computada.vue'
     //import Ex008 from './components/Ex008 - Watch.vue'
     //import Ex009 from './components/Ex009 - Ciclo de Vida.vue'
-    import Ex010 from './components/Ex010 - Componentes slot.vue'
+    //import Ex010 from './components/Ex010 - Componentes slot.vue'
+    import Ex011 from './components/Ex011 - Scoped e Global CSS.vue'
 </script>
 
 <template>
-    <Ex010></Ex010>
+    <Ex011></Ex011>
 </template>

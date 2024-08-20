@@ -22,7 +22,7 @@
             },
 
             google(){
-
+                window.alert('Indo pro site Google!')
             },
 
             casaBonita(){

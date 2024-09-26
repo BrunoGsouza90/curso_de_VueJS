@@ -23,9 +23,9 @@
 
     <main id="produtos">
         <h1>Produtos</h1>
-        <ul v-for="produto in produtos" :key="produto.id">
+        <ul v-for="produto in produtos" :key="produto.nome">
             <li>
-                <RouterLink :to="`/produtos/${produto.id}`">{{ produto.nome }}</RouterLink>
+                <RouterLink :to="`/produtos/${produto.nome}`">{{ produto.nome }}</RouterLink>
             </li>
         </ul>
     </main>

@@ -15,7 +15,9 @@ export default {
     
     <h1>Laço de Repetição : <q><em>v-for</em></q></h1>
     <ol type="I">
-        <p v-for="nome in nomes"><li>{{ nome }}</li></p>
+        <div v-for="nome in nomes">
+            <li>{{ nome }}</li>
+        </div>
     </ol>
 
 </template>

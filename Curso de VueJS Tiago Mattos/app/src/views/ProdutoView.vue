@@ -1,27 +1,24 @@
 <script>
-
     import { useProdutoStore } from '../stores/produtoStore'
 
     export default{
         name: 'ProdutoView',
-        props: ['id'],
+        props: ['nome'],
         data(){
-            return{
-                id: parseInt(this.$route.params.id)
+            return {
+                nome: this.$route.params.nome
             }
         },
-        computed:{
+        computed: {
             produto(){
-                const store = useProdutoStore()
-                return store.getProdutoById(this.id)
-            },
+                const store = useProdutoStore();
+                return store.getProdutoByNome(this.nome);
+            }
         }
     }
-
 </script>
 
 <template>
-
     <main id="produto">
         <h1>Produto</h1>
         <div v-if="produto">
@@ -32,5 +29,4 @@
             <p>Produto não encontrado.</p>
         </div>
     </main>
-
 </template>

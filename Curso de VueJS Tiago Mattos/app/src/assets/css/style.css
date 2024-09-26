@@ -52,7 +52,7 @@ main#home{
 }
 
 main#home h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 main#contato{
@@ -127,4 +127,25 @@ main#produto p{
 
 main#produto p strong{
     color: rgba(255, 0, 0, 0.678);
+}
+
+main#aulas{
+    background-color: white;
+    padding: 50px;
+    min-width: 250px;
+    max-width: 1000px;
+    margin: auto;
+    border: 0.2px solid rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+}
+
+main#aulas h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+main#aulas p{
+    font-size: 1.2em;
+    font-family: cursive;
 }
